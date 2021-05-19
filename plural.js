@@ -4,7 +4,9 @@ var notPlurals = [
     'pas',
     'vois',
     'mieux',
-    'dis'
+    'dis',
+    'mais',
+    'sais'
 ];
 var plurals = [
     'sont'
