@@ -1,0 +1,33 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Correct Orthographe</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ </head>
+ <body>
+<div>
+    <textarea onkeyup="mainFunc()" id="textEntry" contenteditable="true">Texte libre</textarea>
+</div>
+<div>
+    <p id="textOut"></p>
+</div>
+<script src="femininWords.js"></script>
+<script src="plural.js"></script>
+<script src="user.js"></script>
+<style>
+
+    .feminin {
+        color:rgb(190, 0, 190);
+    }
+    .plural {
+        text-decoration: underline yellow;
+    }
+    textarea {
+        width: 100%;
+    }
+</style>
+ </body>
+ </html>
