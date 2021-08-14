@@ -1,33 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Correct Orthographe</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <header><h1>Correct Orthographe</h1></header>
+  <body>
+    <div class="main">
+      <div>
+        <textarea onkeyup="mainFunc()" id="textEntry" contenteditable="true">
+Texte libre</textarea
+        >
+      </div>
+      <div>
+        <p id="textOut"></p>
+      </div>
+    </div>
 
- <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Correct Orthographe</title>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- </head>
- <body>
-<div>
-    <textarea onkeyup="mainFunc()" id="textEntry" contenteditable="true">Texte libre</textarea>
-</div>
-<div>
-    <p id="textOut"></p>
-</div>
-<script src="femininWords.js"></script>
-<script src="plural.js"></script>
-<script src="user.js"></script>
-<style>
-
-    .feminin {
-        color:rgb(190, 0, 190);
-    }
-    .plural {
-        text-decoration: underline yellow;
-    }
-    textarea {
-        width: 100%;
-    }
-</style>
- </body>
- </html>
+    <script src="femininWords.js"></script>
+    <script src="plural.js"></script>
+    <script src="user.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0px;
+}
+.feminin {
+  color: rgb(190, 0, 190);
+}
+.plural {
+  text-decoration: underline yellow;
+}
+textarea {
+  width: 100%;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 10px;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(16, 140, 248);
+}
+header h1 {
+  color: white;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
